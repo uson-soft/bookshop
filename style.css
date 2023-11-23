@@ -254,7 +254,6 @@ button {
 
 .title-menu {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -329,8 +328,241 @@ button {
   padding-top: 21px;
 }
 
+#book {
+  position: relative;
+}
+
 .footer-cards h3 {
   color: var(--Background-color, #fff);
   font-size: 16px;
   font-weight: 500;
+}
+
+.book {
+  padding-left: 135px;
+}
+
+.book h1 {
+  color: var(--Text-color, #19272e);
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1.08px;
+  padding: 48px 0 0 0;
+}
+
+.book p {
+  color: var(--Text-color, #19272e);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.book-card p {
+  color: var(--Text-color, #19272e);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.book-card span p {
+  color: var(--Text-color, #19272e);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.book-menu {
+  display: flex;
+  gap: 50px;
+  margin: 176px 0 0 450px;
+}
+
+.block-card-img {
+  margin-left: 450px;
+  margin-top: 62px;
+}
+
+.block-card-img p {
+  color: var(--Text-color, #19272e);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.block-card-img span p {
+  color: var(--Text-color, #19272e);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.block-card p {
+  color: var(--Text-color, #19272e);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.block-card span p {
+  color: var(--Text-color, #19272e);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.block-menu {
+  display: flex;
+  gap: 50px;
+  margin: 62px 0 0 450px;
+}
+
+#cooter {
+  width: 1555px;
+  height: 200px;
+  padding: 112px 140px 64px 140px;
+  background: var(--Main-color, #818eea);
+  margin-top: 112px;
+}
+
+.cooter input {
+  width: 398px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid var(--Background-color, #fff);
+  background: transparent;
+  padding-left: 25px;
+}
+
+.cooter-nav h1 {
+  color: var(--Background-color, #fff);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.cooter-nav p {
+  color: var(--Background-color, #fff);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 24px 0;
+}
+
+.cooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cooter-card h1 {
+  color: var(--Background-color, #fff);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cooter-cards {
+  padding-top: 21px;
+}
+
+.cooter-cards h3 {
+  color: var(--Background-color, #fff);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hiro-card {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#hiro {
+  margin-top: 305px;
+}
+
+.figur {
+  width: 20px;
+  height: 19.615px;
+  border-radius: 8px;
+  border: 1px solid var(--Text-color, #19272e);
+}
+
+.hiro-card h5 {
+  color: var(--Text-color, #19272e);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 13px;
+}
+
+.hiro-cards {
+  margin-left: 25px;
+}
+
+.hiro-card {
+  margin: 25px 0;
+}
+
+.hiro span h5 {
+  color: var(--Text-color, #19272e);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 24px 0;
+  padding-left: 45px;
+}
+
+.figur2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 160px;
+  height: 37px;
+  border-radius: 8px;
+  border: 1px solid var(--Main-color, #818eea);
+}
+
+.fill-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.fill-card {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.fill-card h1 {
+  color: var(--Text-color, #19272e);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fill-card h5 {
+  color: var(--Main-color, #818eea);
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  padding-top: 13px;
+  padding-left: 16px;
+}
+
+.figur2 {
+  margin-left: 1160px;
+}
+
+.figur2 h5 {
+  color: var(--Main-color, #818eea);
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.figur2 select {
+  color: var(--Main-color, #818eea);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#hiro {
+  position: absolute;
+  top: 0;
+  left: 135px;
 }
